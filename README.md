@@ -37,3 +37,4 @@ List of norwegian public organizations on GitHub
 - https://github.com/NationalLibraryOfNorway
 - https://github.com/BIBSYSDEV
 - https://github.com/MUSIT-Norway
+- https://github.com/nsbno
