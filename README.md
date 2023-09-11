@@ -25,7 +25,7 @@ List of norwegian public organizations on GitHub
 - https://github.com/NPRA
 - https://github.com/Kystverket
 - https://github.com/brreg
-- https://github.com/dif
+- https://github.com/difi
 - https://github.com/Mattilsynet
 - https://github.com/miljodir
 - https://github.com/Riksrevisjonen
