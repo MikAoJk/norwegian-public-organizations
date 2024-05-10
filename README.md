@@ -1,6 +1,26 @@
 # norwegian-public-organizations
 List of norwegian public organizations on GitHub
 
+| organization name  | url  | number of repos
+|---|---|---|
+|   Statens Vegvesen |  https://github.com/nvdb-vegdata |  30 |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+
+
+
 - https://github.com/nvdb-vegdata
 - https://github.com/statisticsnorway
 - https://github.com/avinor
