@@ -1,5 +1,5 @@
 # norwegian-public-organizations
-List of norwegian public organizations on GitHub
+List of norwegian public organizations on GitHub as of 10.05.2024
 
 | organization name                                        | url                                        | number of repos |
 |----------------------------------------------------------|--------------------------------------------|-----------------|
