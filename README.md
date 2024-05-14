@@ -38,5 +38,6 @@ List of norwegian public organizations on GitHub as of 10.05.2024
 | Direktoratet for forvaltning og økonomistyring           | https://github.com/dfo-no                  | 11              |
 | Nasjonalbiblioteket                                      | https://github.com/NationalLibraryOfNorway | 55              |
 | SIKT                                                     | https://github.com/BIBSYSDEV               | 144             |
-| MUSIT-Norway                                             | https://github.com/MUSIT-Norway            | 7  |
+| MUSIT-Norway                                             | https://github.com/MUSIT-Norway            | 7               |
 | Vy                                                       | https://github.com/nsbno                   | 114             |
+| Norwegian Meteorological Institute                       | https://github.com/metno                   | 356             |
