@@ -53,7 +53,7 @@ export const OrganizationsOnGithub = () => {
                         <table className="w-full text-sm text-left rtl:text-right">
                             <thead className="text-m uppercase">
                             <tr>
-                                <th scope="col" className="px-3 py-1">Name</th>
+                                <th scope="col" className="px-6 py-3">Name</th>
                                 <th scope="col" className="px-6 py-3">Url</th>
                                 <th scope="col" className="px-6 py-3">Number of repos</th>
                             </tr>
