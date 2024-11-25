@@ -61,7 +61,7 @@ export const OrganizationsOnGithub = () => {
                             <tbody>
                             {organizationsWithReposByRepoNumber.map(organization =>
                                 <tr className="border-b dark:border-gray-700" key={organization.id}>
-                                    <td className="px-6 py-4 w-1/5">
+                                    <td className="px-6 py-4">
                                         {organization.name}
                                     </td>
                                     <td className="px-6 py-4">
