@@ -66,7 +66,7 @@ export const OrganizationsOnGithub = () => {
                                     </td>
                                     <td className="px-6 py-4">
                                         <a className="text-blue-600 dark:text-blue-500 hover:underline"
-                                           href={organization.url}>{organization.url} </a>
+                                           href={organization.url}>{organization.owner} </a>
                                     </td>
                                     <td className="px-6 py-4">
                                         {organization.repos}
