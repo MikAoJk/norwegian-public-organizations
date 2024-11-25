@@ -1,0 +1,30 @@
+{
+  "name": "norwegian-public-organizations",
+  "version": "1.0.0",
+  "homepage": "https://mikaojk.github.io/norwegian-public-organizations",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "22.9.0",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "@octokit/core": "^6.1.2",
+    "@octokit/rest": "^21.0.2",
+    "@octokit/plugin-retry": "^7.1.2",
+    "autoprefixer": "10.4.20",
+    "eslint": "9.14.0",
+    "eslint-config-next": "15.0.3",
+    "next": "15.0.3",
+    "postcss": "8.4.49",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tailwindcss": "3.4.14",
+    "typescript": "5.6.3"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}

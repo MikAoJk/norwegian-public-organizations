@@ -1,0 +1,230 @@
+[
+  {
+    "id": 1,
+    "name": "Statens Vegvesen",
+    "url": "https://github.com/nvdb-vegdata",
+    "owner": "nvdb-vegdata"
+  },
+  {
+    "id": 2,
+    "name": "SSB",
+    "url": "https://github.com/statisticsnorway",
+    "owner": "statisticsnorway"
+  },
+  {
+    "id": 3,
+    "name": "Avinor",
+    "url": "https://github.com/avinor",
+    "owner": "avinor"
+  },
+  {
+    "id": 4,
+    "name": "Norsk-Tipping",
+    "url": "https://github.com/Norsk-Tipping",
+    "owner": "Norsk-Tipping"
+  },
+  {
+    "id": 5,
+    "name": "Digipost",
+    "url": "https://github.com/digipost",
+    "owner": "digipost"
+  },
+  {
+    "id": 6,
+    "name": "Bring",
+    "url": "https://github.com/bring",
+    "owner": "bring"
+  },
+  {
+    "id": 7,
+    "name": "Statens pensjonskasse",
+    "url": "https://github.com/StatensPensjonskasse",
+    "owner": "StatensPensjonskasse"
+  },
+  {
+    "id": 8,
+    "name": "Altinn",
+    "url": "https://github.com/altinn",
+    "owner": "altinn"
+  },
+  {
+    "id": 9,
+    "name": "Entur AS",
+    "url": "https://github.com/entur",
+    "owner": "entur"
+  },
+  {
+    "id": 10,
+    "name": "Equinor",
+    "url": "https://github.com/equinor",
+    "owner": "equinor"
+  },
+  {
+    "id": 11,
+    "name": "Norsk rikskringkasting (NRK)",
+    "url": "https://github.com/nrkno",
+    "owner": "nrkno"
+  },
+  {
+    "id": 12,
+    "name": "Kartverket",
+    "url": "https://github.com/kartverket",
+    "owner": "kartverket"
+  },
+  {
+    "id": 13,
+    "name": "Trondheim kommune",
+    "url": "https://github.com/Trondheim-kommune",
+    "owner": "Trondheim-kommune"
+  },
+  {
+    "id": 14,
+    "name": "Trondheim Kommune TIP ",
+    "url": "https://github.com/tktip",
+    "owner": "tktip"
+  },
+  {
+    "id": 15,
+    "name": "Norsk institutt for vannforskning",
+    "url": "https://github.com/NIVANorge",
+    "owner": "NIVANorge"
+  },
+  {
+    "id": 16,
+    "name": "Skatteetaten",
+    "url": "https://github.com/skatteetaten",
+    "owner": "skatteetaten"
+  },
+  {
+    "id": 17,
+    "name": "NAV IT",
+    "url": "https://github.com/navikt",
+    "owner": "navikt"
+  },
+  {
+    "id": 18,
+    "name": "Oslo kommune",
+    "url": "https://github.com/oslokommune",
+    "owner": "oslokommune"
+  },
+  {
+    "id": 19,
+    "name": "Direktoratet for samfunnssikkerhet og beredskap",
+    "url": "https://github.com/dsb-norge",
+    "owner": "dsb-norge"
+  },
+  {
+    "id": 20,
+    "name": "Bergen kommune",
+    "url": "https://github.com/bergenkommune",
+    "owner": "bergenkommune"
+  },
+  {
+    "id": 21,
+    "name": "Statens vegvesen",
+    "url": "https://github.com/vegvesen",
+    "owner": "vegvesen"
+  },
+  {
+    "id": 22,
+    "name": "Norwegian Public Roads Administration (Statens Vegvesen)",
+    "url": "https://github.com/NPRA",
+    "owner": "NPRA"
+  },
+  {
+    "id": 23,
+    "name": "Kystverket",
+    "url": "https://github.com/Kystverket",
+    "owner": "Kystverket"
+  },
+  {
+    "id": 24,
+    "name": "Brønnøysundregistrene",
+    "url": "https://github.com/brreg",
+    "owner": "brreg"
+  },
+  {
+    "id": 25,
+    "name": "Digitaliseringsdirektoratet (Digdir)",
+    "url": "https://github.com/difi",
+    "owner": "difi"
+  },
+  {
+    "id": 26,
+    "name": "Mattilsynet",
+    "url": "https://github.com/Mattilsynet",
+    "owner": "Mattilsynet"
+  },
+  {
+    "id": 27,
+    "name": "Miljødirektoratet (Norwegian Environment Agency)",
+    "url": "https://github.com/miljodir",
+    "owner": "miljodir"
+  },
+  {
+    "id": 28,
+    "name": "Riksrevisjonen",
+    "url": "https://github.com/Riksrevisjonen",
+    "owner": "Riksrevisjonen"
+  },
+  {
+    "id": 29,
+    "name": "Toll",
+    "url": "https://github.com/toll",
+    "owner": "toll"
+  },
+  {
+    "id": 30,
+    "name": "Utdanningsdirektoratet",
+    "url": "https://github.com/Utdanningsdirektoratet",
+    "owner": "Utdanningsdirektoratet"
+  },
+  {
+    "id": 31,
+    "name": "Forbrukerrådet",
+    "url": "https://github.com/Forbrukerradet",
+    "owner": "Forbrukerradet"
+  },
+  {
+    "id": 32,
+    "name": "Artsdatabanken",
+    "url": "https://github.com/Artsdatabanken",
+    "owner": "Artsdatabanken"
+  },
+  {
+    "id": 33,
+    "name": "Direktoratet for forvaltning og økonomistyring",
+    "url": "https://github.com/dfo-no",
+    "owner": "dfo-no"
+  },
+  {
+    "id": 34,
+    "name": "Nasjonalbiblioteket",
+    "url": "https://github.com/NationalLibraryOfNorway",
+    "owner": "NationalLibraryOfNorway"
+  },
+  {
+    "id": 35,
+    "name": "SIKT",
+    "url": "https://github.com/BIBSYSDEV",
+    "owner": "BIBSYSDEV"
+  },
+  {
+    "id": 36,
+    "name": "MUSIT-Norway",
+    "url": "https://github.com/MUSIT-Norway",
+    "owner": "MUSIT-Norway"
+  },
+  {
+    "id": 37,
+    "name": "Vy",
+    "url": "https://github.com/nsbno",
+    "owner": "nsbno"
+  },
+  {
+    "id": 38,
+    "name": "Norwegian Meteorological Institute",
+    "url": "https://github.com/metno",
+    "owner": "metno"
+  }
+]
