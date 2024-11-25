@@ -46,7 +46,6 @@ export const OrganizationsOnGithub = () => {
 
 
     return (
-        <div>
             <h1 className="text-l md:text-4xl font-extrabold mb-8 md:mb-12 text-center">Norwegian public organizations on GitHub</h1>
                     {organizationsWithReposByRepoNumber &&
                         <table className="table-auto">
@@ -71,7 +70,6 @@ export const OrganizationsOnGithub = () => {
                             </tbody>
                         </table>
                     }
-        </div>
     );
 }
 
