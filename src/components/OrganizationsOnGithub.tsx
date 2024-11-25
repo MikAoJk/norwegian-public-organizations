@@ -47,7 +47,7 @@ export const OrganizationsOnGithub = () => {
 
     return (
         <div>
-            <h1 className="text-l md:text-4xl font-extrabold mb-4">Norwegian public organizations on GitHub</h1>
+            <h1 className="text-l md:text-4xl font-extrabold mb-4 text-center">Norwegian public organizations on GitHub</h1>
                 <div className="mt-4 md:mt-10">
                     {organizationsWithReposByRepoNumber &&
                         <table className="w-full text-sm text-left rtl:text-right">
