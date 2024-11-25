@@ -46,7 +46,7 @@ export const OrganizationsOnGithub = () => {
 
 
     return (
-        <div className="flex min-h-screen flex-col p-16 md:items-center md:p-24">
+        <div>
             <h1 className="text-4xl font-extrabold mb-4">Norwegian public organizations on GitHub</h1>
                 <div className="mt-4 md:mt-10">
                     {organizationsWithReposByRepoNumber &&
