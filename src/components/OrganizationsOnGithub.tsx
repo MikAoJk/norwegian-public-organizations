@@ -47,10 +47,9 @@ export const OrganizationsOnGithub = () => {
 
     return (
         <div>
-            <h1 className="text-l md:text-4xl font-extrabold mb-4 text-center">Norwegian public organizations on GitHub</h1>
-                <div className="mt-4 md:mt-10">
+            <h1 className="text-l md:text-4xl font-extrabold mb-8 md:mb-12 text-center">Norwegian public organizations on GitHub</h1>
                     {organizationsWithReposByRepoNumber &&
-                        <table className="table-auto text-sm text-left rtl:text-right">
+                        <table className="table-auto">
                             <thead className="text-m uppercase">
                             <tr>
                                 <th scope="col" className="px-6 py-3">Name</th>
@@ -76,7 +75,6 @@ export const OrganizationsOnGithub = () => {
                             </tbody>
                         </table>
                     }
-            </div>
         </div>
     );
 }
