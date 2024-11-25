@@ -50,10 +50,10 @@ export const OrganizationsOnGithub = () => {
             <h1 className="text-l md:text-4xl font-extrabold mb-4 text-center">Norwegian public organizations on GitHub</h1>
                 <div className="mt-4 md:mt-10">
                     {organizationsWithReposByRepoNumber &&
-                        <table className="w-1/3 text-sm text-left rtl:text-right">
+                        <table className="w-full text-sm text-left rtl:text-right">
                             <thead className="text-m uppercase">
                             <tr>
-                                <th scope="col" className="px-6 py-3">Name</th>
+                                <th scope="col" className="px-3 py-1">Name</th>
                                 <th scope="col" className="px-6 py-3">Url</th>
                                 <th scope="col" className="px-6 py-3">Number of repos</th>
                             </tr>
