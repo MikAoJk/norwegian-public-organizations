@@ -53,7 +53,7 @@ export const OrganizationsOnGithub = () => {
                         <table className="w-full text-sm text-left rtl:text-right">
                             <thead className="text-m uppercase">
                             <tr>
-                                <th scope="col" className="px-6 py-3 w-1/5">Name</th>
+                                <th scope="col" className="px-6 py-3">Name</th>
                                 <th scope="col" className="px-6 py-3">Url</th>
                                 <th scope="col" className="px-6 py-3">Number of repos</th>
                             </tr>
@@ -61,7 +61,7 @@ export const OrganizationsOnGithub = () => {
                             <tbody>
                             {organizationsWithReposByRepoNumber.map(organization =>
                                 <tr className="border-b dark:border-gray-700" key={organization.id}>
-                                    <td className="px-6 py-4">
+                                    <td className="px-6 py-4 w-1/5">
                                         {organization.name}
                                     </td>
                                     <td className="px-6 py-4">
