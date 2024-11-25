@@ -79,7 +79,7 @@
   },
   {
     "id": 14,
-    "name": "Trondheim Kommune TIP ",
+    "name": "Trondheim Kommune TIP",
     "url": "https://github.com/tktip",
     "owner": "tktip"
   },
@@ -127,7 +127,7 @@
   },
   {
     "id": 22,
-    "name": "Norwegian Public Roads Administration (Statens Vegvesen)",
+    "name": "Norwegian Public Roads Administration",
     "url": "https://github.com/NPRA",
     "owner": "NPRA"
   },
@@ -157,7 +157,7 @@
   },
   {
     "id": 27,
-    "name": "Miljødirektoratet (Norwegian Environment Agency)",
+    "name": "Miljødirektoratet",
     "url": "https://github.com/miljodir",
     "owner": "miljodir"
   },
