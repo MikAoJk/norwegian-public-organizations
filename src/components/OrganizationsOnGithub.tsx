@@ -45,10 +45,10 @@ export const OrganizationsOnGithub = () => {
 
 
     return (
-        <div className="min-w-40">
+        <div className="relative overflow-x-auto">
             <h1 className="text-l md:text-4xl font-extrabold mb-8 md:mb-12 text-center">Norwegian public organizations on GitHub</h1>
                     {organizationsWithReposByRepoNumber &&
-                        <table className="table-auto">
+                        <table className="w-full text-sm text-left rtl:text-right">
                             <thead className="text-m uppercase">
                             <tr>
                                 <th scope="col" className="px-6 py-3">Name</th>
