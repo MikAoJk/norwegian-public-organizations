@@ -226,5 +226,17 @@
     "name": "Norwegian Meteorological Institute",
     "url": "https://github.com/metno",
     "owner": "metno"
+  },
+  {
+    "id": 39,
+    "name": "NAV Application Platform",
+    "url": "https://github.com/nais",
+    "owner": "nais"
+  },
+  {
+    "id": 40,
+    "name": "Norsk Helsenett SF",
+    "url": "https://github.com/NorskHelsenett",
+    "owner": "NorskHelsenett"
   }
 ]
