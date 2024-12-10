@@ -31,5 +31,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 The application is live at: https://mikaojk.github.io/norwegian-public-organizations
 
 ## Organization is missing!!
-Follow the guide in the: (CONTRIBUTING.md)[CONTRIBUTING.md]
+Follow the guide in the: [CONTRIBUTING.md](CONTRIBUTING)
 and append the organization in this file:  src/components/data/organizations.json
