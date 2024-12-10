@@ -238,5 +238,11 @@
     "name": "Norsk Helsenett SF",
     "url": "https://github.com/NorskHelsenett",
     "owner": "NorskHelsenett"
+  },
+  {
+    "id": 41,
+    "name": "Digdir",
+    "url": "https://github.com/digdir",
+    "owner": "digdir"
   }
 ]
