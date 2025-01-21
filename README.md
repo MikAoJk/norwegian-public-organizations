@@ -20,6 +20,15 @@ Install deps:
 bun run build
 ```
 
+Environment variable:
+Need to set an environment variable
+GH_TOKEN to your GitHub token
+```bash
+.bashrc example:
+``` shell bash
+export GH_TOKEN='supersecretkey'
+```
+
 First, run the development server:
 ```bash
 bun run dev
