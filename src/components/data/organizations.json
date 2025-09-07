@@ -244,5 +244,11 @@
     "name": "Digdir",
     "url": "https://github.com/digdir",
     "owner": "digdir"
+  },
+  {
+    "id": 42,
+    "name": "Politiet",
+    "url": "https://github.com/politiet",
+    "owner": "politiet"
   }
 ]
