@@ -68,12 +68,12 @@ export const OrganizationsOnGithub = () => {
                     <tbody>
  {organizationsWithReposByRepoNumber.map((organization, idx) =>
     <tr className="border-b dark:border-gray-700" key={organization.id}>
-        <td className="px-6 py-4">{idx + 1}</td>
-        <td className="px-6 py-4">
+        <td className="px-3 py-4">{idx + 1}</td>
+        <td className="px-3 py-4">
             <a className="text-blue-600 dark:text-blue-500 hover:underline"
                href={organization.url}>{organization.name}</a>
         </td>
-        <td className="px-6 py-4">
+        <td className="px-3 py-4">
             {organization.repos}
         </td>
     </tr>
