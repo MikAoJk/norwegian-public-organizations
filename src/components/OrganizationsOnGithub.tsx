@@ -60,9 +60,9 @@ export const OrganizationsOnGithub = () => {
                 <table className="w-full text-sm text-left rtl:text-right">
                     <thead className="text-m uppercase">
                     <tr>
-                        <th scope="col" className="px-6 py-3">Rank</th>
-                        <th scope="col" className="px-6 py-3">Name</th>
-                        <th scope="col" className="px-6 py-3">Number of repos</th>
+                        <th scope="col" className="px-3 py-3">Rank</th>
+                        <th scope="col" className="px-3 py-3">Name</th>
+                        <th scope="col" className="px-3 py-3">Number of repos</th>
                     </tr>
                     </thead>
                     <tbody>
