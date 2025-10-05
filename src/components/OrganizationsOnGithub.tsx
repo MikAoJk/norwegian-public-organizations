@@ -44,7 +44,7 @@ export const OrganizationsOnGithub = () => {
 
     return (
         <div className="relative overflow-x-auto">
-            <a className="flex flex-col items-center mb-4" href="https://github.com/MikAoJk/norwegian-public-organizations">
+            <a className="flex flex-col items-center mb-4 mt-2" href="https://github.com/MikAoJk/norwegian-public-organizations">
                 <svg width="3em" height="3em" viewBox="0 0 98 98" xmlns="http://www.w3.org/2000/svg"
                      aria-labelledby="github-icon-title" role="img"><title id="github-icon-title">Norwegian public organizations repo on Github</title>
                     <path fillRule="evenodd" clipRule="evenodd"
