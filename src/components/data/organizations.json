@@ -250,5 +250,11 @@
     "name": "Politiet",
     "url": "https://github.com/politiet",
     "owner": "politiet"
+  },
+  {
+    "id": 43,
+    "name": "Arbeidstilsynet",
+    "url": "https://github.com/Arbeidstilsynet",
+    "owner": "Arbeidstilsynet"
   }
 ]
