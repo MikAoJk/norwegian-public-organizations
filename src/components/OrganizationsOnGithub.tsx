@@ -100,9 +100,12 @@ export const OrganizationsOnGithub = () => {
                     <span className="text-blue-600 dark:text-blue-500">{group.name}</span>
                     <div className="mt-1 text-xs">
                         (<span className="inline-flex flex-wrap gap-x-2">
-                        {group.orgs.map((org) => (
-                            <a key={org.id} className="text-blue-600 dark:text-blue-500 hover:underline"
-                               href={org.url}>{org.owner}</a>
+                        {group.orgs.map((org, orgIdx) => (
+                            <span key={org.id}>
+                                <a className="text-blue-600 dark:text-blue-500 hover:underline"
+                                   href={org.url}>{org.owner}</a>
+                                {orgIdx < group.orgs.length - 1 && ','}
+                            </span>
                         ))}
                         </span>)
                     </div>
