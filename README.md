@@ -15,7 +15,7 @@ site (`site/`) is then deployed to GitHub Pages.
 
 ## Running the data fetch locally
 ### Prerequisites
-* Node.js 20+
+* Node.js 24
 
 Set a GitHub token so you don't hit the unauthenticated rate limit:
 ```bash
