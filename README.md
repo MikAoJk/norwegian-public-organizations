@@ -30,7 +30,7 @@ node scripts/fetch-data.js
 This writes `site/index.html`. Open it in a browser to view the result.
 
 ## Deployed to GitHub Pages
-The application is live at: https://mikaojk.github.io/norwegian-public-organizations/
+The application is live at: https://joakim-taule-kartveit.no/norwegian-public-organizations/
 
 ## Organization is missing!!
 Follow the guide in the: [CONTRIBUTING.md](CONTRIBUTING.md)
