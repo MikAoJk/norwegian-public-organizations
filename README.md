@@ -9,8 +9,9 @@
 ## How it works
 A GitHub Actions workflow runs every hour (and on every push to `main`).
 It executes `scripts/fetch-data.js`, which calls the GitHub API to retrieve the
-current public repository count for each organisation and writes the result to
-`site/data.json`. The static site (`site/`) is then deployed to GitHub Pages.
+current public repository count for each organisation and generates a fully
+pre-rendered `site/index.html` (no JavaScript fetches at runtime). The static
+site (`site/`) is then deployed to GitHub Pages.
 
 ## Running the data fetch locally
 ### Prerequisites
@@ -26,7 +27,7 @@ Fetch the data:
 node scripts/fetch-data.js
 ```
 
-This writes `site/data.json`. Open `site/index.html` in a browser to view the result.
+This writes `site/index.html`. Open it in a browser to view the result.
 
 ## Deployed to GitHub Pages
 The application is live at: https://mikaojk.github.io/norwegian-public-organizations/
