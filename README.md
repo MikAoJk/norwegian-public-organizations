@@ -2,43 +2,35 @@
 ![screenshot](screenshot.jpg)
 
 ## Technologies used
-* Bun
-* TypeScript
-* Next.js
-* Tailwind
+* Plain HTML, CSS, and JavaScript (static site)
+* Node.js (data fetch script)
+* GitHub Pages
 
-## Getting Started
+## How it works
+A GitHub Actions workflow runs every hour (and on every push to `main`).
+It executes `scripts/fetch-data.js`, which calls the GitHub API to retrieve the
+current public repository count for each organisation and writes the result to
+`site/data.json`. The static site (`site/`) is then deployed to GitHub Pages.
+
+## Running the data fetch locally
 ### Prerequisites
-Make sure you have bun installed
-See [bun Installation](https://bun.sh/docs/installation) on how to install it locally
-You can check which bun version you have installed
+* Node.js 20+
+
+Set a GitHub token so you don't hit the unauthenticated rate limit:
 ```bash
-bun --version
+export GH_TOKEN='your_github_token'
 ```
 
-Install deps:
+Fetch the data:
 ```bash
-bun run build
+node scripts/fetch-data.js
 ```
 
-Environment variable:
-Need to set an environment variable
-GH_TOKEN to your GitHub token
-.bashrc example:
-``` shell bash
-export GH_TOKEN='supersecretkey'
-```
+This writes `site/data.json`. Open `site/index.html` in a browser to view the result.
 
-First, run the development server:
-```bash
-bun run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Deployed to vercel
-The application is live at: https://norwegian-public-organizations.vercel.app/
+## Deployed to GitHub Pages
+The application is live at: https://mikaojk.github.io/norwegian-public-organizations/
 
 ## Organization is missing!!
 Follow the guide in the: [CONTRIBUTING.md](CONTRIBUTING.md)
-and append the organization in this file:  src/components/data/organizations.json
+and append the organization in this file: `site/organizations.json`

@@ -1,0 +1,125 @@
+:root {
+  --foreground: #000;
+  --background-start: rgb(214, 219, 220);
+  --background-end: #fff;
+  --link-color: #2563eb;
+  --border-color: #e5e7eb;
+  --header-bg: #f9fafb;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground: #fff;
+    --background-start: #000;
+    --background-end: #000;
+    --link-color: #3b82f6;
+    --border-color: #374151;
+    --header-bg: #111827;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.875rem;
+  color: var(--foreground);
+  background: linear-gradient(to bottom, transparent, var(--background-end)) var(--background-start);
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  main {
+    padding: 3rem;
+  }
+}
+
+.github-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  color: var(--foreground);
+  text-decoration: none;
+}
+
+.github-link:hover {
+  opacity: 0.7;
+}
+
+h1 {
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.25rem;
+    margin-bottom: 3rem;
+  }
+}
+
+.status {
+  text-align: center;
+  padding: 1rem;
+}
+
+.status.error {
+  color: #dc2626;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  text-align: left;
+}
+
+thead {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  background-color: var(--header-bg);
+}
+
+th {
+  padding: 0.75rem;
+  font-weight: 700;
+}
+
+td {
+  padding: 1rem 0.75rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.sub-orgs {
+  margin-top: 0.25rem;
+  font-size: 0.75rem;
+}
