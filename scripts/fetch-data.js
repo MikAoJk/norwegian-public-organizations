@@ -5,6 +5,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ORGS_FILE = path.join(__dirname, '../site/organizations.json');
+const CSS_FILE = path.join(__dirname, '../site/styles.css');
 const HTML_FILE = path.join(__dirname, '../site/index.html');
 const GH_TOKEN = process.env.GH_TOKEN;
 
@@ -58,7 +59,7 @@ function buildTableRows(grouped) {
   }).join('\n');
 }
 
-function buildHtml(tableRows) {
+function buildHtml(tableRows, inlineCss) {
   const GITHUB_SVG = `<svg width="3em" height="3em" viewBox="0 0 98 98" xmlns="http://www.w3.org/2000/svg"
          aria-hidden="true" focusable="false">
       <path fill-rule="evenodd" clip-rule="evenodd"
@@ -73,7 +74,7 @@ function buildHtml(tableRows) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Norwegian public organizations on GitHub</title>
   <meta name="description" content="List of Norwegian public organizations on GitHub" />
-  <link rel="stylesheet" href="styles.css" />
+  <style>${inlineCss}</style>
 </head>
 <body>
   <main>
@@ -126,7 +127,13 @@ async function main() {
   const grouped = Array.from(groupMap.values()).sort((a, b) => b.totalRepos - a.totalRepos);
 
   const tableRows = buildTableRows(grouped);
-  const html = buildHtml(tableRows);
+  let inlineCss;
+  try {
+    inlineCss = fs.readFileSync(CSS_FILE, 'utf8');
+  } catch (err) {
+    throw new Error(`Could not read CSS file at ${CSS_FILE}: ${err.message}`);
+  }
+  const html = buildHtml(tableRows, inlineCss);
   fs.writeFileSync(HTML_FILE, html);
   console.log(`\nWrote pre-rendered ${HTML_FILE} (${grouped.length} groups)`);
 }
