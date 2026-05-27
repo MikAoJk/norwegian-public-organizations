@@ -244,5 +244,11 @@
     "name": "Arbeidstilsynet",
     "url": "https://github.com/Arbeidstilsynet",
     "owner": "Arbeidstilsynet"
+  },
+  {
+    "id": 42,
+    "name": "Statens Lånekasse for Utdanning",
+    "url": "https://github.com/lanekassen",
+    "owner": "lanekassen"
   }
 ]
