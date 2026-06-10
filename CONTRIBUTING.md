@@ -14,7 +14,7 @@ Append the organization to `site/organizations.json` following the existing form
 ```
 
 ## Running locally
-Requires Node.js 20+. Set a GitHub token to avoid rate-limiting:
+Requires Node.js 24+. Set a GitHub token to avoid rate-limiting:
 ```bash
 export GH_TOKEN='your_github_token'
 node scripts/fetch-data.js
