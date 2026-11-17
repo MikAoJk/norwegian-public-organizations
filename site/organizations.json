@@ -123,7 +123,7 @@
     "id": 21,
     "name": "Kystverket",
     "url": "https://github.com/Kystverket",
-    "owner": "Kystverket"
+    "owner": "Kystverket"https://github.com/fintlabs
   },
   {
     "id": 22,
@@ -256,5 +256,11 @@
     "name": "Advokattilsynet",
     "url": "https://github.com/advokattilsynet",
     "owner": "advokattilsynet"
+  },
+  {
+    "id": 44,
+    "name": "FINTLabs",
+    "url": "https://github.com/fintlabs",
+    "owner": "fintlabs"
   }
 ]
